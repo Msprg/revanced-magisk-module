@@ -23,3 +23,4 @@ version = "auto"
 [Reddit]
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
 build-mode = "both"
+version = "2023.37.0"
