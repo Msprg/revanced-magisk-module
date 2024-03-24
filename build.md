@@ -1,5 +1,6 @@
 YT-noGmsCore: 19.04.37  
 YT-GmsCore: 19.04.37  
+YT-GmsCore-customPkgName: 19.04.37  
 Reddit: 2023.37.0  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
