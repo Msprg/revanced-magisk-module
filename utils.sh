@@ -454,7 +454,7 @@ build_rv() {
 		# Ignore microg / gmscore patches, we're managing them manually.
 #		echo "[DBG] Micro-g patch variable is: $microg_patch"
 #		if [ -n "$microg_patch" ]; then
-#			patched_apk="${TEMP_DIR}/${app_name_l}-${rv_brand_f}-${version_f}-${arch_f}-${build_mode}.apk"
+			patched_apk="${TEMP_DIR}/${app_name_l}-${rv_brand_f}-${version_f}-${arch_f}-${build_mode}.apk"
 #			if [ "$build_mode" = apk ]; then
 #				patcher_args+=("-i \"${microg_patch}\"")
 #			elif [ "$build_mode" = module ]; then
