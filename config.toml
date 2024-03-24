@@ -6,14 +6,14 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [YT-GmsCore]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+#apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 build-mode = "both"
 included-patches = "'Enable slide to seek' 'Change header' 'GmsCore support'"
 version = "auto"
 
 [YT-noGmsCore]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+#apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 build-mode = "both"
 included-patches = "'Enable slide to seek' 'Change header'"
@@ -21,7 +21,7 @@ excluded-patches = "'GmsCore support'"
 version = "auto"
 
 [Reddit]
-apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+#apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
 build-mode = "both"
 version = "2023.37.0"
