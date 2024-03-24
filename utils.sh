@@ -413,10 +413,10 @@ build_rv() {
 	p_patcher_args+=("-m ${args[integ]}")
 	local microg_patch
 	microg_patch=$(jq -r ".[] | select(.compatiblePackages // [] | .[] | .name==\"${pkg_name}\") | .name" "${args[ptjs]}" | grep -i "gmscore\|microg" || :)
-	if [ -n "$microg_patch" ] && [[ ${p_patcher_args[*]} =~ $microg_patch ]]; then
-		epr "You cant include/exclude microg patches as that's done by rvmm builder automatically."
-		p_patcher_args=("${p_patcher_args[@]//-[ei] ${microg_patch}/}")
-	fi
+	# if [ -n "$microg_patch" ] && [[ ${p_patcher_args[*]} =~ $microg_patch ]]; then 
+	# 	epr "You cant include/exclude microg patches as that's done by rvmm builder automatically."
+	# 	p_patcher_args=("${p_patcher_args[@]//-[ei] ${microg_patch}/}")
+	# fi
 
 	local stock_bundle_apk="${TEMP_DIR}/${pkg_name}-${version_f}-${arch_f}-bundle.apk"
 	local is_bundle=false
