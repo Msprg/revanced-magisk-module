@@ -8,8 +8,15 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 [YT-GmsCore]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 #archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-build-mode = "both"
+build-mode = "apk"
 included-patches = "'Enable slide to seek' 'Change header' 'GmsCore support'"
+version = "auto"
+
+[YT-GmsCore-customPkgName]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+build-mode = "apk"
+included-patches = "'Enable slide to seek' 'Change header' 'GmsCore support' 'Change package name'"
 version = "auto"
 
 [YT-noGmsCore]
