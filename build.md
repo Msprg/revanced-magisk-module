@@ -1,5 +1,5 @@
-YT-GmsCore-customPkgName: 19.16.39  
 YT-GmsCore: 19.16.39  
+YT-GmsCore-customPkgName: 19.16.39  
 YT-noGmsCore: 19.16.39  
 Reddit: 2023.37.0  
 
@@ -10,6 +10,6 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouT
 
 Changelog:  
 CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: ReVanced/revanced-integrations-1.13.0.apk  
-Patches: ReVanced/revanced-patches-4.13.3.jar  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v4.13.3)  
+Integrations: ReVanced/revanced-integrations-1.14.1.apk  
+Patches: ReVanced/revanced-patches-4.14.1.jar  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v4.14.1)  
